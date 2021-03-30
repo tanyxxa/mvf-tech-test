@@ -1,0 +1,22 @@
+{
+    "type": "project",
+    "require": {
+        "php": "^7.4||^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "MVF\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "MVF\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "knplabs/github-api":"^3.0",
+        "guzzlehttp/guzzle":"^7.0.1",
+        "http-interop/http-factory-guzzle":"^1.0",
+        "phpunit/phpunit": "^9.*"
+    }
+}
